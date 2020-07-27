@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Perpustakaanku</string>
+    <string name="title_activity_menu_bawah">activity_menu_bawah</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="alamat1">Jl. Suroto No.9, Kotabaru, Kec. Gondokusuman, Kota Yogyakarta</string>
+    <string name="alamat2">Jl. Colombo No.1, Karang Malang, Caturtunggal, Kec. Depok, Kabupaten Sleman</string>
+    <string name="alamat3">Jl. Marsda Adisucipto, Demangan, Gondokusuman, Papringan, Caturtunggal</string>
+    <string name="alamat4">Jl. Malioboro No.175, Sosromenduran, Gedong Tengen, Kota Yogyakarta</string>
+</resources>

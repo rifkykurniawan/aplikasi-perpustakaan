@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bakground">
+
+    <TextView
+        android:id="@+id/textview1Resetpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginVertical="15dp"
+        android:clickable="false"
+        android:editable="false"
+        android:text="My Account"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/putihbckgrnd">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/image1"
+                android:background="@drawable/image_lengkung"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                ></ImageView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                    >
+
+                <EditText
+                    android:id="@+id/edi1_nama_account"
+                    android:layout_width="350dp"
+                    android:enabled="false"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/backgorundedit"
+                    android:editable="false"
+                    android:hint="Name"
+                    android:inputType="textEmailAddress"
+                    android:padding="12dp"
+                    android:textColorHint="@android:color/white"></EditText>
+
+                <EditText
+                    android:id="@+id/edi_notel"
+                    android:enabled="false"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edi1_nama_account"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/backgorundedit"
+                    android:editable="false"
+                    android:hint="No Telepon"
+                    android:inputType="number"
+                    android:padding="12dp"
+                    android:textColorHint="@android:color/white"></EditText>
+
+                <EditText
+                    android:id="@+id/ed3_email"
+                    android:enabled="false"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edi_notel"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/backgorundedit"
+                    android:editable="false"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:padding="12dp"
+                    android:textColorHint="@android:color/white"></EditText>
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="45dp"
+                    android:id="@+id/btn_resetpass"
+                    android:hint="Log Out"
+                    android:onClick="btLogout"
+                    android:textColorHint="@android:color/white"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginVertical="100dp"
+                    android:background="@drawable/backgorudnbtn"
+                    ></Button>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_login"
+    android:background="@color/bakground">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:text="Favorite"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeputih"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/putihbckgrnd"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CardView.Light"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/perpustakaanyk1"
+                android:scaleType="centerCrop"
+                android:id="@+id/favimageview1"></ImageView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/judul_fav1"
+                android:textStyle="bold"
+                android:text="Perpustakaan Kota Yogyakarta"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="-30dp"
+                android:layout_marginLeft="120dp"></TextView>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/des_fvar1"
+                android:text="@string/alamat1"
+                android:layout_gravity="center|start"
+                android:layout_marginTop="9dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginLeft="120dp"
+
+                ></TextView>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center|end"
+                android:background="@drawable/ic_favorite"></Button>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_below="@+id/card1"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CardView.Light"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/perpus_uin1"
+                android:scaleType="centerCrop"
+                android:id="@+id/favimageview2"></ImageView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/judul_fav2"
+                android:textStyle="bold"
+                android:text="Perpustakaan UIN Yogyakarta"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="-30dp"
+                android:layout_marginLeft="120dp"></TextView>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/des_fvar2"
+                android:text="@string/alamat2"
+                android:layout_gravity="center|start"
+                android:layout_marginTop="9dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginLeft="120dp"
+
+                ></TextView>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center|end"
+                android:background="@drawable/ic_favorite"></Button>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
+            android:layout_below="@+id/card2"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CardView.Light"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/perpus_uny1"
+                android:scaleType="centerCrop"
+                android:id="@+id/favimageview3"></ImageView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/judul_fav3"
+                android:textStyle="bold"
+                android:text="Perpustakaan UNY"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="-30dp"
+                android:layout_marginLeft="120dp"></TextView>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/des_fvar3"
+                android:text="@string/alamat3"
+                android:layout_gravity="center|start"
+                android:layout_marginTop="9dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginLeft="120dp"
+
+                ></TextView>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center|end"
+                android:background="@drawable/ic_favorite"></Button>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card4"
+            android:layout_below="@+id/card3"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CardView.Light"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/perpus_malbor1"
+                android:scaleType="centerCrop"
+                android:id="@+id/favimageview4"></ImageView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/judul_fav4"
+                android:textStyle="bold"
+                android:text="Perpustakaan Malioboro"
+                android:layout_gravity="center|start"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="-30dp"
+                android:layout_marginLeft="120dp"></TextView>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/des_fvar4"
+                android:text="@string/alamat4"
+                android:layout_gravity="center|start"
+                android:layout_marginTop="9dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginLeft="120dp"
+
+                ></TextView>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center|end"
+                android:background="@drawable/ic_favorite"></Button>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
